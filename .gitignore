@@ -1,0 +1,26 @@
+# Ignore Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Ignore directories
+vendor/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Ignore Vercel deployment files
+.vercel
+
+go.mod
+go.sum
+
+# Ignore environment variables file
+.env
